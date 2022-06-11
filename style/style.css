@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+}
+
+body {
+
+    background: radial-gradient(80.98% 39.98% at 53.73% 53.73%, rgba(153, 15, 165, 0.61) 0%, #0E1D2F 89%) 
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 20px;
+
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+
+}
+
+
+#container {
+    margin-top: 150px; 
+    width: 75%;
+    max-width: 500px;
+    margin-inline: auto;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+p {
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+
+
+input, button {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+
+input {
+    
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    transition:  filter 0.2s;
+}
+
+/*pseudo-class* :hover */
+
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+#resultado {
+   margin-top: 30px;
+    transition: opacity 1s;
+}
+
+#resultado div {
+   font-size:  16px;
+   font-weight: normal;
+   opacity:  0.9;
+   margin-bottom: 5px;
+}
